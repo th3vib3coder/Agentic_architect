@@ -34,3 +34,9 @@ Registered OpenClaw-style local automation as a reference architecture only. Thi
 ## 2026-05-07 — Claude REDIRECT Response Patch
 
 Codex patched the Wave 0 bootstrap after Claude's `INTPLAN-WAVE0-CLAUDE-REVIEW-001` REDIRECT. The patch binds ledgers and reports to `Agentic_architect`, mirrors the canonical plan into `Agentic_architect/plan/`, aligns derailment seeds with the canonical P1/P2/P3/P5 catalog, and marks the sibling Codex plan as reference-only through operator decisions.
+
+## 2026-05-07 — Wave 0 Closed
+
+After Claude Round 2 ACCEPT on commit `5ca0c96` and Carmine's `GO Wave 0 closure`, Codex recorded the ACCEPT row, operator closure decision, Wave 0 closure changelog row, and active-wave pointer to Wave A.
+
+Wave A is active but not started. The next file to read is `plan\09_wave_a_foundation_cleanup.md`.

@@ -35,9 +35,11 @@ This wiki is the durable map of the integrated system implementation. It exists 
 
 Current active wave is recorded in `ledger/active_wave.md`.
 
+As of 2026-05-07, Wave 0 is closed and Wave A is active but not started. The active wave file is `plan\09_wave_a_foundation_cleanup.md`.
+
 ## Review Status
 
-Wave 0 bootstrap is under Claude REDIRECT review response. See `ledger/adversarial_reviews.md` and `reports/wave_0_redirect_patch_report.md`.
+Wave 0 has Claude Round 2 ACCEPT recorded in `ledger/adversarial_reviews.md` and operator closure recorded in `ledger/change_log.md`. The next review checkpoint is Wave A after its own scoped work, not before reading the active wave file.
 
 ## No Dead Zones Rule
 

@@ -37,7 +37,17 @@ The durable goal file is:
 
 ## Current State
 
-Wave 0 preflight is open. The repository was bootstrapped from the operator instruction on 2026-05-07.
+Wave 0 preflight is closed after Claude Round 2 ACCEPT and operator `GO Wave 0 closure`.
+
+Active wave:
+
+`A — Foundation Cleanup`
+
+Active wave file:
+
+`plan\09_wave_a_foundation_cleanup.md`
+
+Wave A has not been executed yet. The next agent must read the active wave file, list the atomic tasks, and wait for operator direction before making Wave A changes.
 
 ## Non-Negotiable Closure Rule
 
@@ -72,4 +82,4 @@ Current reference:
 
 ## Review Status
 
-Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-001` with verdict `REDIRECT` on the Wave 0 bootstrap. This repository is in redirect-patch state until Claude reviews the response patch.
+Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-002` with verdict `ACCEPT` on the Wave 0 redirect patch. Carmine issued `GO Wave 0 closure`. Wave 0 is closed and Wave A is active but not started.
