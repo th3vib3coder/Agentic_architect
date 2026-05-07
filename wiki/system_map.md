@@ -12,6 +12,7 @@ Every implementation step and every minimal variation must update the project wi
 |---|---|---|
 | Agentic Architect | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect` | Operational repo and implementation orchestration surface |
 | Canonical plan | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan` | Binding plan and wave sequence |
+| Versioned plan mirror | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect\plan` | GitHub-tracked plan copy used by fresh cloned agents |
 | OBDK | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel` | Paper-to-evidence analysis kernel |
 | VRE | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\WIKI_VRE` | Durable research memory wiki |
 | Phase 10 | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\phase10-knowledge-layer` | VRE missing layer, gated by Phase 9 Wave 5 closure |
@@ -30,6 +31,8 @@ An agent starts here, then reads:
 3. `ledger/active_wave.md`
 4. plan `23_project_goal_and_implementation_doctrine.md`
 5. the active wave file
+
+In a fresh GitHub clone, the agent reads those plan files under `plan/`.
 
 ## Evidence Rule
 

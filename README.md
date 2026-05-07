@@ -14,9 +14,13 @@ This repository is the operational implementation workspace for the integrated a
 - **VRE** as long-term research memory and wiki-backed evidence store;
 - **OBDK** as executable paper-to-evidence kernel using SPARK-derived scripts, recipes, and generated sandboxed analysis code.
 
-The canonical implementation plan lives at:
+The canonical implementation plan source lives at:
 
 `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan`
+
+This repository also tracks a versioned mirror at:
+
+`plan\`
 
 The durable goal file is:
 
@@ -27,8 +31,8 @@ The durable goal file is:
 1. Read this `README.md`.
 2. Read `wiki/index.md`.
 3. Read `ledger/active_wave.md`.
-4. Read the canonical GOAL file in the plan folder.
-5. Read the active wave file in the plan folder.
+4. Read `plan\23_project_goal_and_implementation_doctrine.md`.
+5. Read the active wave file in `plan\`.
 6. Execute the next task exactly as written.
 
 ## Current State
@@ -65,3 +69,7 @@ Architecture references are recorded in `wiki/architecture_references.md`.
 Current reference:
 
 - `ARCH-REF-001`: OpenClaw-style local automation patterns are reference-only for a future local cross-agent bridge. No OpenClaw feature is adopted into core scope without an operator decision.
+
+## Review Status
+
+Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-001` with verdict `REDIRECT` on the Wave 0 bootstrap. This repository is in redirect-patch state until Claude reviews the response patch.

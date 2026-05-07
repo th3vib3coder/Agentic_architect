@@ -8,7 +8,7 @@ Every implementation step and every minimal variation must update the project wi
 
 | Date | Pattern | Trigger | Action | Prevention Hook |
 |---|---|---|---|---|
-| 2026-05-07 | P1 framework capture | Prior sessions let Vibe Science drive research-grade side quests | Canonical plan and GOAL doctrine made binding | Read plan before action |
-| 2026-05-07 | P2 shortcut invention | Prior sessions proposed minimum viable bypasses | Orthodox mantra added everywhere | Active wave controls action |
-| 2026-05-07 | P3 smoke-test theater | Prior sessions confused fixture smoke-test with data execution | Evidence rule requires exact source/command/scope | Reports must quote command output |
-| 2026-05-07 | P4 chat-memory authority | Prior sessions used memory over files | Wiki/ledger/readme/github packet required | Filesystem is authority |
+| 2026-05-07 | P1 | "/vibe" invoked -> Phase 0 BRAINSTORM with 6 files + 5 BLOCKING demands + Pass 4 BLOCK Stage 1 + Wave 1 setup tasks | Operator corrected; experimental quarantine via Wave A | Read active wave before applying any framework |
+| 2026-05-07 | P2 | Proposed "minimum viable smoke-test" to bypass Pass 4 setup tasks | Operator corrected; returned to plan | Treat shortcuts that bypass written tasks as derailment |
+| 2026-05-07 | P3 | Called fixture E2E test "we touched data" | Operator corrected; smoke-test on fixture distinguished from real data | Reports must quote exact data/source scope |
+| 2026-05-07 | P5 | Proposed "skip Pass 4, go to Phase 1.1 minimum viable" after operator said "execute the plan" | Operator corrected with LAW 11; plan execution resumed | Follow operator correction immediately |

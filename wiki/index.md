@@ -16,6 +16,7 @@ This wiki is the durable map of the integrated system implementation. It exists 
 |---|---|---|
 | Operational workspace | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect` | Repo where implementation orchestration artifacts live |
 | Canonical plan | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan` | Execution plan to follow word-for-word |
+| Versioned plan mirror | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect\plan` | GitHub-tracked mirror of the canonical plan for fresh clones |
 | GOAL doctrine | `...\integrated-system-claude-plan\23_project_goal_and_implementation_doctrine.md` | Complete project objective and implementation doctrine |
 | OBDK | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel` | Analysis kernel |
 | VRE wiki | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\WIKI_VRE` | Long-term memory surface |
@@ -33,6 +34,10 @@ This wiki is the durable map of the integrated system implementation. It exists 
 ## Active Wave
 
 Current active wave is recorded in `ledger/active_wave.md`.
+
+## Review Status
+
+Wave 0 bootstrap is under Claude REDIRECT review response. See `ledger/adversarial_reviews.md` and `reports/wave_0_redirect_patch_report.md`.
 
 ## No Dead Zones Rule
 

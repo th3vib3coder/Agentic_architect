@@ -22,6 +22,10 @@ The plan to follow is:
 
 `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan`
 
+The GitHub-tracked mirror for fresh agents is:
+
+`C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect\plan`
+
 ## Current Operator Decision
 
 OPDEC-PLAN-001 is treated as decided by the operator instruction in this session:
@@ -29,3 +33,5 @@ OPDEC-PLAN-001 is treated as decided by the operator instruction in this session
 `Pick Claude integrated-system-claude-plan as canonical plan for execution; use Agentic_architect as the implementation workspace.`
 
 The formal ledger row is in `ledger/operator_decisions.md`.
+
+Claude Code issued a Wave 0 REDIRECT review. Until the redirect patch receives round 2 review, Wave 0 remains open-review-needed.

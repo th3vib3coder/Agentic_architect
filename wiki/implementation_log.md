@@ -30,3 +30,7 @@ GitHub remote created:
 ## 2026-05-07 — ARCH-REF-001 Registered
 
 Registered OpenClaw-style local automation as a reference architecture only. This preserves the operator's idea for a future local cross-agent bridge without changing Wave 0, Wave A, or core OBDK/VRE/Vibe Science scope.
+
+## 2026-05-07 — Claude REDIRECT Response Patch
+
+Codex patched the Wave 0 bootstrap after Claude's `INTPLAN-WAVE0-CLAUDE-REVIEW-001` REDIRECT. The patch binds ledgers and reports to `Agentic_architect`, mirrors the canonical plan into `Agentic_architect/plan/`, aligns derailment seeds with the canonical P1/P2/P3/P5 catalog, and marks the sibling Codex plan as reference-only through operator decisions.

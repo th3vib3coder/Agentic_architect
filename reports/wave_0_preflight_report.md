@@ -218,3 +218,16 @@ origin  https://github.com/th3vib3coder/Agentic_architect.git (push)
 ## Status
 
 Wave 0 bootstrap artifacts are authored by Codex and require Claude Code adversarial review. Codex does not self-ACCEPT.
+
+## Claude Review And Redirect Patch
+
+Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-001` with verdict `REDIRECT` on the Wave 0 bootstrap and ARCH-REF-001.
+
+Codex authored a response patch recorded in:
+
+- `reports/wave_0_redirect_patch_report.md`
+- `ledger/adversarial_reviews.md`
+- `ledger/multi_agent_pairing.md`
+- `ledger/change_log.md`
+
+Wave 0 remains under review until Claude Code issues a round 2 verdict.
