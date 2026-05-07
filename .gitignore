@@ -1,0 +1,15 @@
+# Orthodox Mantra
+# Il piano e il vangelo e noi siamo ortodossi che seguono il vangelo parola per parola.
+# Every implementation step and every minimal variation must update the project wiki,
+# implementation ledger, incremental changelog, relevant README, and GitHub remote,
+# unless an operator-recorded waiver explicitly says otherwise.
+
+.DS_Store
+Thumbs.db
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+*.log
