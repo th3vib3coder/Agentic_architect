@@ -17,6 +17,10 @@ Every implementation step and every minimal variation must update the project wi
 | Phase 10 | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\phase10-knowledge-layer` | VRE missing layer, gated by Phase 9 Wave 5 closure |
 | Phase 9 | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\phase9-implementation-plan` | Upstream gate for Phase 10 |
 
+## External Architecture References
+
+Reference architectures are listed in `wiki/architecture_references.md`. They are pattern sources only. They do not alter subsystem ownership or active wave scope.
+
 ## Navigation Rule
 
 An agent starts here, then reads:

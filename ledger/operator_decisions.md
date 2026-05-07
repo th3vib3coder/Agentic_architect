@@ -10,3 +10,4 @@ Every implementation step and every minimal variation must update the project wi
 |---|---|---|---|---|
 | 2026-05-07 | OPDEC-PLAN-001 | Pick Claude `integrated-system-claude-plan` as canonical; use `Agentic_architect` as operational implementation workspace | Operator provided immutable facts naming the plan folder and workspace and said to begin | Integrated system implementation |
 | 2026-05-07 | OPDEC-GH-001 | Create public GitHub repository `th3vib3coder/Agentic_architect` | Operator explicitly requested GitHub repo creation and public is acceptable | Wave 0 bootstrap |
+| 2026-05-07 | ARCH-REF-001 | Treat OpenClaw-style local automation as reference architecture only, not adopted scope | Operator clarified that useful architecture patterns may be studied later, but features are chosen by this project's narrow orchestrator mission | Future optional local cross-agent bridge |

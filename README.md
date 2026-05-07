@@ -57,3 +57,11 @@ Remote:
 Bootstrap commit:
 
 `1db1a88bfa32ceca7db3fef91feca47c812a9935`
+
+## Architecture References
+
+Architecture references are recorded in `wiki/architecture_references.md`.
+
+Current reference:
+
+- `ARCH-REF-001`: OpenClaw-style local automation patterns are reference-only for a future local cross-agent bridge. No OpenClaw feature is adopted into core scope without an operator decision.

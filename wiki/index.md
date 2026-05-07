@@ -27,6 +27,7 @@ This wiki is the durable map of the integrated system implementation. It exists 
 |---|---|
 | `project_goal.md` | Human-readable goal and completion criteria |
 | `system_map.md` | Where the three subsystems live and how agents should navigate |
+| `architecture_references.md` | External architecture references and explicit non-adoption boundaries |
 | `implementation_log.md` | Narrative companion to ledger rows |
 
 ## Active Wave

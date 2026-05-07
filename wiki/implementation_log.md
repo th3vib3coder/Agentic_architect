@@ -26,3 +26,7 @@ GitHub remote created:
 - Visibility: `PUBLIC`
 - Default branch: `main`
 - Bootstrap commit: `1db1a88bfa32ceca7db3fef91feca47c812a9935`
+
+## 2026-05-07 — ARCH-REF-001 Registered
+
+Registered OpenClaw-style local automation as a reference architecture only. This preserves the operator's idea for a future local cross-agent bridge without changing Wave 0, Wave A, or core OBDK/VRE/Vibe Science scope.
