@@ -48,6 +48,12 @@ No task is closed until:
 
 ## GitHub
 
-Target repository: `th3vib3coder/Agentic_architect` (public).
+Target repository: [th3vib3coder/Agentic_architect](https://github.com/th3vib3coder/Agentic_architect) (public).
 
-The remote is created during Wave 0 bootstrap and recorded in `ledger/change_log.md`.
+Remote:
+
+`https://github.com/th3vib3coder/Agentic_architect.git`
+
+Bootstrap commit:
+
+`1db1a88bfa32ceca7db3fef91feca47c812a9935`

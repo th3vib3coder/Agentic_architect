@@ -19,6 +19,7 @@ This wiki is the durable map of the integrated system implementation. It exists 
 | GOAL doctrine | `...\integrated-system-claude-plan\23_project_goal_and_implementation_doctrine.md` | Complete project objective and implementation doctrine |
 | OBDK | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel` | Analysis kernel |
 | VRE wiki | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\WIKI_VRE` | Long-term memory surface |
+| GitHub remote | `https://github.com/th3vib3coder/Agentic_architect` | Public remote for reviewed/pushed implementation state |
 
 ## Wiki Map
 
