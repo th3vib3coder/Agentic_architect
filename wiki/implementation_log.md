@@ -55,3 +55,9 @@ Codex initialized OBDK as its own Git repository and created a private GitHub re
 - Current reviewed-head candidate: `7f3c8b54fa961653e6efacaa62df24315101ab19`
 
 This did not start Wave A. It only removes the remoting blocker that would have made Wave A local-only.
+
+## 2026-05-08 — OBDK Path A Review ACCEPT Recorded
+
+Claude reviewed OBDK Path A private remoting and issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT`. Carmine then issued `GO commit ACCEPT row`.
+
+Codex recorded the ACCEPT in the adversarial review ledger, multi-agent pairing ledger, changelog, README, and active subtasks. No Wave A work was started by this closure.

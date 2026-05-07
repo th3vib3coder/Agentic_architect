@@ -60,6 +60,8 @@ OBDK remoting decision:
 
 This did not start Wave A. Wave A remains active but not started until an explicit operator `GO Wave A`.
 
+Claude review status: `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` ACCEPT, recorded after Carmine `GO commit ACCEPT row`.
+
 ## Non-Negotiable Closure Rule
 
 No task is closed until:
@@ -98,3 +100,5 @@ Current reference:
 ## Review Status
 
 Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-002` with verdict `ACCEPT` on the Wave 0 redirect patch. Carmine issued `GO Wave 0 closure`. Wave 0 is closed and Wave A is active but not started.
+
+Claude Code also issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT` on OBDK Path A private remoting. Carmine issued `GO commit ACCEPT row`; Codex recorded the ACCEPT without starting Wave A.
