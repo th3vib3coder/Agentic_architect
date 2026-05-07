@@ -61,3 +61,14 @@ This did not start Wave A. It only removes the remoting blocker that would have 
 Claude reviewed OBDK Path A private remoting and issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT`. Carmine then issued `GO commit ACCEPT row`.
 
 Codex recorded the ACCEPT in the adversarial review ledger, multi-agent pairing ledger, changelog, README, and active subtasks. No Wave A work was started by this closure.
+
+## 2026-05-08 — Wave A Started, Partial Stop
+
+Carmine issued `GO Wave A`. Codex executed the non-blocking foundation cleanup work:
+
+- A1: created OBDK `.vibe-science/OVERSHOOT_STATUS.md`;
+- A2: prepended experimental headers to 28 historical overshoot markdown files;
+- A3: verified Cluster D v0.1 remains pending operator closure;
+- A4: performed the stale prose sweep and found an out-of-write-set hit in `02_wave_queue.md`.
+
+Wave A is not closed. It is blocked on operator decisions `OPDEC-WAVE-A-CLUSTER-D-V0_1-001` and `OPDEC-WAVE-A-STALE-PROSE-001`.

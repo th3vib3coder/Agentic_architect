@@ -47,7 +47,12 @@ Active wave file:
 
 `plan\09_wave_a_foundation_cleanup.md`
 
-Wave A has not been executed yet. The next agent must read the active wave file, list the atomic tasks, and wait for operator direction before making Wave A changes.
+Wave A has started and is partially complete. A1/A2 overshoot quarantine was applied, and A3/A4 reports were written. Wave A is now blocked before closure on operator decisions recorded in:
+
+- `OPDEC-WAVE-A-CLUSTER-D-V0_1-001`
+- `OPDEC-WAVE-A-STALE-PROSE-001`
+
+No Wave B transition has occurred.
 
 OBDK remoting decision:
 
@@ -102,3 +107,5 @@ Current reference:
 Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-002` with verdict `ACCEPT` on the Wave 0 redirect patch. Carmine issued `GO Wave 0 closure`. Wave 0 is closed and Wave A is active but not started.
 
 Claude Code also issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT` on OBDK Path A private remoting. Carmine issued `GO commit ACCEPT row`; Codex recorded the ACCEPT without starting Wave A.
+
+Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, but stopped before Wave A closure because the plan requires operator decisions on Cluster D v0.1 closure and an out-of-write-set stale prose hit in `02_wave_queue.md`.
