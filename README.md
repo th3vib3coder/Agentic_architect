@@ -47,9 +47,17 @@ Active wave file:
 
 `plan\09_wave_a_foundation_cleanup.md`
 
-Wave A implementation is complete as an author handoff candidate. A1/A2 overshoot quarantine was applied, A3/A4 reports were written, Carmine resolved both operator decisions with `1: close, 2: authorize`, and A5 verification was prepared for adversarial review.
+Wave A is closed after Claude final adversarial ACCEPT and Carmine `GO Wave A closure`.
 
-No Wave B transition has occurred yet. Wave A awaits Claude final adversarial review and operator closure.
+Active wave:
+
+`B — Agent Entrypoints`
+
+Active wave file:
+
+`plan\10_wave_b_agent_entrypoints.md`
+
+Wave B has not been executed yet. The next agent must read the active wave file, list the atomic tasks, and wait for operator direction before making Wave B changes.
 
 OBDK remoting decision:
 
@@ -105,4 +113,4 @@ Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-002` with verdict `ACCEPT` on th
 
 Claude Code also issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT` on OBDK Path A private remoting. Carmine issued `GO commit ACCEPT row`; Codex recorded the ACCEPT without starting Wave A.
 
-Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, stopped for operator decisions, then resumed after Carmine selected `1: close, 2: authorize`. Wave A is now an author-ready handoff candidate, not self-accepted.
+Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, stopped for operator decisions, resumed after Carmine selected `1: close, 2: authorize`, and handed Wave A to Claude. Claude issued `INTPLAN-WAVE-A-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT`; Carmine issued `GO Wave A closure`; Codex recorded the closure and opened Wave B as active_not_started.

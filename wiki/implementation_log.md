@@ -79,4 +79,6 @@ Carmine resolved both Wave A blockers with `1: close, 2: authorize`.
 
 Codex recorded the Cluster D v0.1 closure, applied the narrow `02_wave_queue.md` factual correction from 23 to 24 contracts, updated reports, and prepared an author handoff for Claude final adversarial review.
 
-Wave A remains active until Claude review and operator closure. Wave B has not started.
+Claude reviewed Wave A and issued `INTPLAN-WAVE-A-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT`. Carmine issued `GO Wave A closure`.
+
+Codex recorded the ACCEPT, closed Wave A, and opened Wave B as `active_not_started`. No Wave B task has been executed.

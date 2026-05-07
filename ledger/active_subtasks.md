@@ -15,3 +15,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-08T00:31:41.3611941+02:00 | OBDK remoting / Path A ACCEPT row | Codex | closed_after_claude_accept_and_operator_go_commit_accept_row |
 | 2026-05-08T00:36:49.2976713+02:00 | Wave A / A1-A4 partial foundation cleanup | Codex | blocked_awaiting_operator_decisions_on_cluster_d_v0_1_and_02_wave_queue_stale_prose |
 | 2026-05-08T00:58:00+02:00 | Wave A / A5 author-ready handoff | Codex | author_ready_for_claude_final_review |
+| 2026-05-08T01:34:22.3399863+02:00 | Wave A / closure after Claude ACCEPT | Codex | closed_after_claude_accept_and_operator_go_wave_a_closure |
+| 2026-05-08T01:34:22.3399863+02:00 | Wave B / agent entrypoints | Codex | active_not_started |

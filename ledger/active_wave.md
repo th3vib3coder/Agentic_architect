@@ -7,11 +7,11 @@
 Every implementation step and every minimal variation must update the project wiki, implementation ledger, incremental changelog, relevant README, and GitHub remote, unless an operator-recorded waiver explicitly says otherwise.
 
 ```yaml
-active_wave: A
-since: 2026-05-07T23:22:44.1158673+02:00
+active_wave: B
+since: 2026-05-08T01:34:22.3399863+02:00
 last_updated_by: Codex
-last_updated_reason: Wave A implementation complete as author-ready handoff; awaiting Claude final adversarial review before Wave B transition
-blocked_by: CLAUDE_WAVE_A_FINAL_REVIEW
+last_updated_reason: Wave A closed after Claude final ACCEPT and operator GO Wave A closure; opening Wave B agent entrypoints
+blocked_by: none
 canonical_plan: C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan
-active_wave_file: plan\09_wave_a_foundation_cleanup.md
+active_wave_file: plan\10_wave_b_agent_entrypoints.md
 ```
