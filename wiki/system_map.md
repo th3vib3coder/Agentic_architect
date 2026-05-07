@@ -13,7 +13,8 @@ Every implementation step and every minimal variation must update the project wi
 | Agentic Architect | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect` | Operational repo and implementation orchestration surface |
 | Canonical plan | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan` | Binding plan and wave sequence |
 | Versioned plan mirror | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect\plan` | GitHub-tracked plan copy used by fresh cloned agents |
-| OBDK | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel` | Paper-to-evidence analysis kernel |
+| OBDK | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel` | Paper-to-evidence analysis kernel; stays in place locally |
+| OBDK private remote | `https://github.com/th3vib3coder/onco-bio-discovery-kernel` | Private mirror of OBDK selected by `OPDEC-OBDK-REMOTING-001`; initial commit `44cccf5b520444050eb114b4fecc08f7bcc2250d`, current reviewed-head candidate `7f3c8b54fa961653e6efacaa62df24315101ab19` |
 | VRE | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\WIKI_VRE` | Durable research memory wiki |
 | Phase 10 | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\phase10-knowledge-layer` | VRE missing layer, gated by Phase 9 Wave 5 closure |
 | Phase 9 | `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\phase9-implementation-plan` | Upstream gate for Phase 10 |
@@ -42,3 +43,7 @@ Any new path created during implementation must appear in at least one of:
 - a subsystem wiki;
 - `ledger/change_log.md`;
 - `reports/`.
+
+## Remoting Rule
+
+Agentic Architect is public. OBDK is private. OBDK changes must be committed and pushed to the private OBDK remote, while orchestration decisions and cross-system status are mirrored here in `Agentic_architect`.

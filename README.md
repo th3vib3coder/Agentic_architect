@@ -49,6 +49,17 @@ Active wave file:
 
 Wave A has not been executed yet. The next agent must read the active wave file, list the atomic tasks, and wait for operator direction before making Wave A changes.
 
+OBDK remoting decision:
+
+- Decision: `OPDEC-OBDK-REMOTING-001`
+- Path chosen: Path A, in-place private GitHub mirror
+- Local path: `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel`
+- Private remote: [th3vib3coder/onco-bio-discovery-kernel](https://github.com/th3vib3coder/onco-bio-discovery-kernel)
+- Initial private mirror commit: `44cccf5b520444050eb114b4fecc08f7bcc2250d`
+- Current reviewed-head candidate: `7f3c8b54fa961653e6efacaa62df24315101ab19`
+
+This did not start Wave A. Wave A remains active but not started until an explicit operator `GO Wave A`.
+
 ## Non-Negotiable Closure Rule
 
 No task is closed until:
@@ -71,6 +82,10 @@ Remote:
 Bootstrap commit:
 
 `1db1a88bfa32ceca7db3fef91feca47c812a9935`
+
+OBDK private repository:
+
+[th3vib3coder/onco-bio-discovery-kernel](https://github.com/th3vib3coder/onco-bio-discovery-kernel)
 
 ## Architecture References
 

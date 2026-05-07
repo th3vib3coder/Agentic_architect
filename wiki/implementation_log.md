@@ -40,3 +40,18 @@ Codex patched the Wave 0 bootstrap after Claude's `INTPLAN-WAVE0-CLAUDE-REVIEW-0
 After Claude Round 2 ACCEPT on commit `5ca0c96` and Carmine's `GO Wave 0 closure`, Codex recorded the ACCEPT row, operator closure decision, Wave 0 closure changelog row, and active-wave pointer to Wave A.
 
 Wave A is active but not started. The next file to read is `plan\09_wave_a_foundation_cleanup.md`.
+
+## 2026-05-07 — OBDK Path A Private Remoting
+
+Carmine chose Path A after clarifying that the decision was repository strategy, not moving OBDK's local filesystem home. Codex kept OBDK at:
+
+`C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\onco-bio-discovery-kernel`
+
+Codex initialized OBDK as its own Git repository and created a private GitHub remote:
+
+- Repository: `https://github.com/th3vib3coder/onco-bio-discovery-kernel`
+- Visibility: `PRIVATE`
+- Initial commit: `44cccf5b520444050eb114b4fecc08f7bcc2250d`
+- Current reviewed-head candidate: `7f3c8b54fa961653e6efacaa62df24315101ab19`
+
+This did not start Wave A. It only removes the remoting blocker that would have made Wave A local-only.
