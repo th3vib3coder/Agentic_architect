@@ -72,3 +72,11 @@ Carmine issued `GO Wave A`. Codex executed the non-blocking foundation cleanup w
 - A4: performed the stale prose sweep and found an out-of-write-set hit in `02_wave_queue.md`.
 
 Wave A is not closed. It is blocked on operator decisions `OPDEC-WAVE-A-CLUSTER-D-V0_1-001` and `OPDEC-WAVE-A-STALE-PROSE-001`.
+
+## 2026-05-08 — Wave A Author Handoff Candidate
+
+Carmine resolved both Wave A blockers with `1: close, 2: authorize`.
+
+Codex recorded the Cluster D v0.1 closure, applied the narrow `02_wave_queue.md` factual correction from 23 to 24 contracts, updated reports, and prepared an author handoff for Claude final adversarial review.
+
+Wave A remains active until Claude review and operator closure. Wave B has not started.

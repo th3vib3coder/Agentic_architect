@@ -47,12 +47,9 @@ Active wave file:
 
 `plan\09_wave_a_foundation_cleanup.md`
 
-Wave A has started and is partially complete. A1/A2 overshoot quarantine was applied, and A3/A4 reports were written. Wave A is now blocked before closure on operator decisions recorded in:
+Wave A implementation is complete as an author handoff candidate. A1/A2 overshoot quarantine was applied, A3/A4 reports were written, Carmine resolved both operator decisions with `1: close, 2: authorize`, and A5 verification was prepared for adversarial review.
 
-- `OPDEC-WAVE-A-CLUSTER-D-V0_1-001`
-- `OPDEC-WAVE-A-STALE-PROSE-001`
-
-No Wave B transition has occurred.
+No Wave B transition has occurred yet. Wave A awaits Claude final adversarial review and operator closure.
 
 OBDK remoting decision:
 
@@ -108,4 +105,4 @@ Claude Code issued `INTPLAN-WAVE0-CLAUDE-REVIEW-002` with verdict `ACCEPT` on th
 
 Claude Code also issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `ACCEPT` on OBDK Path A private remoting. Carmine issued `GO commit ACCEPT row`; Codex recorded the ACCEPT without starting Wave A.
 
-Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, but stopped before Wave A closure because the plan requires operator decisions on Cluster D v0.1 closure and an out-of-write-set stale prose hit in `02_wave_queue.md`.
+Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, stopped for operator decisions, then resumed after Carmine selected `1: close, 2: authorize`. Wave A is now an author-ready handoff candidate, not self-accepted.

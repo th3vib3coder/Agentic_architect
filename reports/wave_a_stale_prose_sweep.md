@@ -26,7 +26,7 @@ Wave A Task A4 searched OBDK `analisi_claude/project_plan/plan/` and `analisi_cl
 | `kernel as it exists at 23 contracts` | `analisi_claude/project_plan/plan/02_wave_queue.md` | 60 | `real D0 cycle on the kernel as it exists at 23 contracts, before further` | Same hit as above; operator decision required before edit. |
 | `Pass 4 BLOCK` | `analisi_claude/project_plan/plan/06_d0_first_cycle_roadmap.md` | 80 | `2026-05-07 after R2 Pass 4 BLOCK-1.` | Historical event reference, not stale active-state prose. Left unchanged. |
 
-## Decision Needed
+## Operator Decision
 
 Wave A allowed stale prose edits in:
 
@@ -35,4 +35,15 @@ Wave A allowed stale prose edits in:
 
 It did not include `analisi_claude/project_plan/plan/02_wave_queue.md`.
 
-Codex appended `OPDEC-WAVE-A-STALE-PROSE-001` and did not edit `02_wave_queue.md`.
+Codex appended `OPDEC-WAVE-A-STALE-PROSE-001` and initially did not edit `02_wave_queue.md`.
+
+Carmine then selected:
+
+`2: authorize`
+
+Codex recorded `OPDEC-WAVE-A-SCOPE-EXTENSION-001` and applied exactly the narrow stale-prose correction:
+
+- `kernel as it exists at 23 contracts`
+- changed to `kernel as it exists at 24 contracts`
+
+No broader `02_wave_queue.md` edit was authorized or applied.

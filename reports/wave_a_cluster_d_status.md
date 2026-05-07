@@ -25,14 +25,14 @@ From OBDK `analisi_claude/project_plan/ledger/operator_decisions.md`:
 
 ## Disposition
 
-Cluster D v0.1 remains pending operator closure.
+Cluster D v0.1 was pending operator closure at A3 inspection time.
 
-Wave A cannot close until Carmine chooses one of:
+Carmine then selected:
 
-1. close Cluster D v0.1 now;
-2. defer Cluster D v0.1 intentionally;
-3. mark Cluster D v0.1 "not yet" and leave Wave A blocked.
+`1: close`
+
+Codex recorded `OPDEC-CLUSTER-D-V0_1-CLOSURE-001` in `Agentic_architect/ledger/operator_decisions.md` and the matching OBDK project-plan operator decision and gate-review closure rows.
 
 ## Agent Action
 
-Codex appended `OPDEC-WAVE-A-CLUSTER-D-V0_1-001` in `Agentic_architect/ledger/operator_decisions.md` and stopped before Wave A closure.
+Codex appended `OPDEC-WAVE-A-CLUSTER-D-V0_1-001` in `Agentic_architect/ledger/operator_decisions.md`, stopped before Wave A closure, then resumed after Carmine selected `close`.
