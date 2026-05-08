@@ -37,8 +37,9 @@ Single discovery surface for the Claude-authored completion plan. A fresh agent 
 | 22 | `19_operator_decision_register.md` | Single source of truth for decisions awaiting operator | When operator returns |
 | 23 | `20_adversarial_review_packet.md` | Packet for Codex review of this plan | Before plan execution and at each wave closure |
 | 24 | `21_handoff_card.md` | Post-completion operational guide | After wave G closure |
-| 25 | `22_codex_adversarial_review.md` | Codex review round 1 and patch rationale. Subsequent review artifacts use `<number>_<reviewer>_round_<N>.md`; all rounds are also logged in `ledger/adversarial_reviews.md`. | Before handing the revised plan back to Claude |
-| 26 | `24_codex_adversarial_review_round_2.md` | Codex patch round 2 responding to Claude ACCEPT_WITH_MINOR and operator goal/mantra correction | Before Claude round 2 counter-review |
+| 25 | `system_orchestration_map.md` | Wave B cross-system routing map, fallback table, ID/backlink rules, and dual-repo commit rule | When routing work across OBDK, VRE, Vibe Science, and operator decisions |
+| 26 | `22_codex_adversarial_review.md` | Codex review round 1 and patch rationale. Subsequent review artifacts use `<number>_<reviewer>_round_<N>.md`; all rounds are also logged in `ledger/adversarial_reviews.md`. | Before handing the revised plan back to Claude |
+| 27 | `24_codex_adversarial_review_round_2.md` | Codex patch round 2 responding to Claude ACCEPT_WITH_MINOR and operator goal/mantra correction | Before Claude round 2 counter-review |
 
 ## Subsystems And Authoritative Paths
 

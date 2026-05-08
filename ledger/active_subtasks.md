@@ -17,3 +17,4 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-08T00:58:00+02:00 | Wave A / A5 author-ready handoff | Codex | author_ready_for_claude_final_review |
 | 2026-05-08T01:34:22.3399863+02:00 | Wave A / closure after Claude ACCEPT | Codex | closed_after_claude_accept_and_operator_go_wave_a_closure |
 | 2026-05-08T01:34:22.3399863+02:00 | Wave B / agent entrypoints | Codex | active_not_started |
+| 2026-05-08T02:30:59.7920356+02:00 | Wave B / B1-B7 author-side entrypoints | Codex | author_ready_for_claude_final_review |

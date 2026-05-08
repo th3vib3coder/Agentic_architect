@@ -8,10 +8,10 @@ Every implementation step and every minimal variation must update the project wi
 
 ```yaml
 active_wave: B
-since: 2026-05-08T01:34:22.3399863+02:00
+since: 2026-05-08T02:30:59.7920356+02:00
 last_updated_by: Codex
-last_updated_reason: Wave A closed after Claude final ACCEPT and operator GO Wave A closure; opening Wave B agent entrypoints
-blocked_by: none
+last_updated_reason: Wave B author-side entrypoints completed after operator GO Wave B; waiting for Claude final adversarial review before closure
+blocked_by: CLAUDE_WAVE_B_FINAL_REVIEW
 canonical_plan: C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\vibe-science\blueprints\private\integrated-system-claude-plan
 active_wave_file: plan\10_wave_b_agent_entrypoints.md
 ```

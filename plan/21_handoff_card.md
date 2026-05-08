@@ -7,7 +7,7 @@ Every implementation step and every minimal variation must update the project wi
 
 ## Purpose
 
-The compact operational card for an agent using the integrated system after Wave G closes. A new agent reads this file and is ready to operate.
+The compact operational card for an agent using the integrated system during implementation and after Wave G closes. A new agent reads this file and is ready to recover state, find the active wave, and avoid calling future commands before their wave closes.
 
 ## What This System Is
 
@@ -33,16 +33,16 @@ The three subsystems are wired so an agent ingests a paper, executes analyses, p
 
 ## First Ten Moves For A Fresh Agent
 
-1. Read `Agentic_architect/README.md`, then `Agentic_architect/plan/README.md`.
-2. Read `23_project_goal_and_implementation_doctrine.md`.
-3. Read `00_INDEX.md`.
-4. Read `01_canonical_state_audit.md`.
-5. Read `02_purpose_anchor.md`.
-6. Read `04_master_sequence.md`.
-7. Read `ledger/active_wave.md` (active wave pointer); if missing, default Wave 0.
-8. Locate OBDK at `vibe-science/blueprints/private/onco-bio-discovery-kernel`.
-9. Locate VRE at `vibe-science/blueprints/private/WIKI_VRE`.
-10. Read the active wave file (e.g. `09_wave_a_foundation_cleanup.md` if active wave is A).
+1. Read `Agentic_architect/README.md`, then `Agentic_architect/wiki/index.md`.
+2. Read `Agentic_architect/ledger/active_wave.md`.
+3. Read `Agentic_architect/plan/23_project_goal_and_implementation_doctrine.md`.
+4. Read `Agentic_architect/plan/00_INDEX.md`.
+5. Read `Agentic_architect/plan/02_purpose_anchor.md`.
+6. Read `Agentic_architect/plan/04_master_sequence.md`.
+7. Read the active wave file named by `ledger/active_wave.md`.
+8. Locate OBDK at `vibe-science/blueprints/private/onco-bio-discovery-kernel` and read `SKILL.md`.
+9. Locate VRE at `vibe-science/blueprints/private/WIKI_VRE` and read `index.md`.
+10. Read `Agentic_architect/plan/system_orchestration_map.md` and identify operator escalation points in `05_decision_boundaries.md`.
 
 After these ten moves, the agent knows: what the system is, where each subsystem is, what the active wave is, and what to do next.
 
@@ -51,17 +51,17 @@ After these ten moves, the agent knows: what the system is, where each subsystem
 | Need | Use |
 |---|---|
 | Recover past sources, methods, decisions, claims | VRE / WIKI_VRE |
-| Ingest paper or store source with provenance | VRE Phase 10 source layer + OBDK paper-ingest CLI |
-| Extract methods and map to executable procedures | OBDK extract-methods CLI + script registry |
+| Ingest paper or store source with provenance | VRE Phase 10 source layer + OBDK paper-ingest CLI after Wave C/D closure |
+| Extract methods and map to executable procedures | OBDK extract-methods CLI + script registry after Wave C closure |
 | Run omics analysis, recipe, scorer | OBDK CLI (`obdk run`) |
-| Generate missing script | OBDK `generate-script` + sandbox + Vibe review |
+| Generate missing script | OBDK `generate-script` + sandbox + Vibe review after Wave C closure |
 | Review claim, assumption, negative result, uncertainty | Vibe Science R2 review packet |
-| Persist evidence to long-term memory | OBDK `export-vre` + WIKI_VRE compile pipeline |
+| Persist evidence to long-term memory | OBDK `export-vre` + WIKI_VRE compile pipeline after Wave D/E closure |
 | Ask operator | only for the declared decision categories in `05_decision_boundaries.md` |
 
 ## Common Workflows
 
-### Workflow A: Ingest a paper and analyze its method
+### Workflow A: Ingest a paper and analyze its method (available after Wave C/D)
 
 1. `python -m obdk.cli ingest-paper --pdf path/to/paper.pdf --out runs/paper_ingest/<source_id>`
 2. `python -m obdk.cli extract-methods --source runs/paper_ingest/<source_id> --out runs/method_extract/<source_id>`
@@ -71,6 +71,8 @@ After these ten moves, the agent knows: what the system is, where each subsystem
 6. Trigger R2 review via Vibe Science adapter.
 7. Persist verdict to VRE.
 
+Until Wave C closes, use only current OBDK commands listed in `OBDK/SKILL.md`: `contracts validate`, `contracts export-schemas`, `run`, and `harvest-geo`.
+
 ### Workflow B: Query VRE memory
 
 1. Read `WIKI_VRE/index.md` to find existing pages.
@@ -79,7 +81,7 @@ After these ten moves, the agent knows: what the system is, where each subsystem
 
 ### Workflow C: Recover from fresh context
 
-1. Read the six-file recovery path (README, GOAL doctrine, INDEX, canonical_state_audit, master_sequence, active_wave).
+1. Read the recovery path (README, wiki/index, active_wave, GOAL doctrine, INDEX, purpose anchor, master_sequence, active wave file).
 2. Smoke-check subsystems via `pytest`, `obdk validate`, `node build-registries.mjs`.
 3. Identify operator decisions awaiting (read `19_operator_decision_register.md`).
 4. Resume active wave or escalate.

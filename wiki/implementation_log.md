@@ -82,3 +82,21 @@ Codex recorded the Cluster D v0.1 closure, applied the narrow `02_wave_queue.md`
 Claude reviewed Wave A and issued `INTPLAN-WAVE-A-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT`. Carmine issued `GO Wave A closure`.
 
 Codex recorded the ACCEPT, closed Wave A, and opened Wave B as `active_not_started`. No Wave B task has been executed.
+
+## 2026-05-08 — Wave B Agent Entrypoints Author Handoff
+
+Carmine issued `GO Wave B`. Codex completed the author-side Wave B entrypoint work:
+
+- OBDK `SKILL.md`;
+- OBDK top-level `wiki/` seed;
+- integrated `plan/system_orchestration_map.md`;
+- refreshed `plan/21_handoff_card.md`;
+- `reports/wave_b_entrypoint_check.md`;
+- `reports/wave_b_fresh_agent_simulation.md`;
+- `reports/wave_b_author_handoff_report.md`.
+
+OBDK provider commit pushed to private remote:
+
+`5745de3159062a4d9cf3ffcde2be9fb6436cc602`
+
+Wave B remains open pending Claude final adversarial review and operator closure. Codex does not self-ACCEPT.

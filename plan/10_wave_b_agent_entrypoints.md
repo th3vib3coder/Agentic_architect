@@ -23,7 +23,7 @@ Wave B may create:
 - `Agentic_architect/plan/system_orchestration_map.md`
 - `Agentic_architect/reports/wave_b_*.md`
 - ledger rows under `Agentic_architect/ledger/`
-- minor edits to `14_agent_start_here_card.md` if needed (Wave B finalizes the agent card; in this plan the card is built progressively)
+- minor edits to `21_handoff_card.md` if needed (Wave B finalizes the agent card; in this plan the card is built progressively)
 
 Wave B does NOT:
 
@@ -73,7 +73,7 @@ Create `system_orchestration_map.md` in this plan folder with:
 
 ### Task B3 — Finalize agent start-here card
 
-Refine `14_agent_start_here_card.md` to include:
+Refine `21_handoff_card.md` to include:
 
 - [ ] Exact first 10 files/commands the agent reads/runs.
 - [ ] "Do not do" warnings learned from past derailments (the five patterns).
@@ -178,7 +178,7 @@ After Wave B closure:
 - `vibe-science/blueprints/private/onco-bio-discovery-kernel/SKILL.md` exists with all required sections
 - `vibe-science/blueprints/private/onco-bio-discovery-kernel/wiki/index.md` exists and links contracts, recipes, scripts, runs, and the integrated plan
 - `Agentic_architect/plan/system_orchestration_map.md` exists with diagram, tables, IDs
-- `14_agent_start_here_card.md` finalized
+- `21_handoff_card.md` finalized
 - `reports/wave_b_fresh_agent_simulation.md` documents the simulation
 - entrypoint presence check exists (test or recipe)
 - `ledger/active_wave.md` points at C and D parallel

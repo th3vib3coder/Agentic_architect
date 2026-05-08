@@ -26,12 +26,10 @@ The GitHub-tracked mirror for fresh agents is:
 
 `C:\Users\Test-User\Desktop\Tesi_Python_scRNA\nuove_skill\Agentic_architect\plan`
 
-## Current Operator Decision
+## Current Implementation State
 
-OPDEC-PLAN-001 is treated as decided by the operator instruction in this session:
+OPDEC-PLAN-001 selected the Claude integrated plan as canonical and `Agentic_architect` as the implementation workspace. Wave 0 and Wave A are closed. Wave B is author-side complete and awaits Claude final adversarial review before operator closure.
 
-`Pick Claude integrated-system-claude-plan as canonical plan for execution; use Agentic_architect as the implementation workspace.`
+The active-state ledger is:
 
-The formal ledger row is in `ledger/operator_decisions.md`.
-
-Claude Code issued a Wave 0 REDIRECT review. Until the redirect patch receives round 2 review, Wave 0 remains open-review-needed.
+`ledger/active_wave.md`
