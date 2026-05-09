@@ -128,3 +128,13 @@ Wave D remains HB-1 gated and is not authorized by this GO.
 Codex completed C1 and wrote `reports/obdk_contract_completion_scope.md`. The report classifies the 15 pending Cluster C/E/F contracts into four trigger buckets: autonomous paper-to-analysis v1, LLM generation, predictive modeling, and safely deferred with concrete trigger.
 
 No operator decision request was emitted because the report classifies existing charter/roadmap scope rather than changing it. C2 is the next task.
+
+## 2026-05-09 — Wave C C2 Paper Source Intake
+
+Codex completed C2 author-side and pushed OBDK private commit `ceb429153780d6ff53bf17db41efc1eb5f95f32c`.
+
+OBDK now has `paper-source-record-v0.1`, `obdk.paper_ingest`, and CLI `ingest-paper --pdf --out`. The command writes a source record, paper text artifact, raw-copy manifest, and SHA256 evidence while leaving missing bibliographic metadata null/metadata-pending rather than inferred.
+
+Fresh author evidence is in `reports/wave_c_c2_author_handoff_report.md`: TDD RED, GREEN, mutation failure, targeted gates, `contracts=25 fixtures=208 unexpected=0`, ruff clean, and full pytest `244 passed`.
+
+Codex does not self-ACCEPT. C3 has not started.

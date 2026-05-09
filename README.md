@@ -70,7 +70,13 @@ Active wave files:
 - `plan\11_wave_c_obdk_completion.md`
 - `plan\12_wave_d_vre_phase10_completion.md`
 
-Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`; C2 paper source record and `ingest-paper` CLI is next and has not started.
+Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`. C2 paper source record and `ingest-paper` CLI is author-ready for review; OBDK private provider commit:
+
+`ceb429153780d6ff53bf17db41efc1eb5f95f32c`
+
+Author handoff report:
+
+`reports/wave_c_c2_author_handoff_report.md`
 
 Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave D task is authorized by the Wave C GO.
 

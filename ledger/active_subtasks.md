@@ -25,3 +25,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-09T18:39:42.4944608+02:00 | Wave C / C1 pending-contract scope reconciliation | Codex | in_progress_after_operator_go_wave_c |
 | 2026-05-09T18:39:42.4944608+02:00 | Wave C / C1 pending-contract scope reconciliation | Codex | closed_report_ready_for_review |
 | 2026-05-09T18:39:42.4944608+02:00 | Wave C / C2 paper source record and ingest-paper CLI | Codex | next_not_started |
+| 2026-05-09T19:29:00+02:00 | Wave C / C2 paper source record and ingest-paper CLI | Codex | author_ready_for_claude_review_obdk_commit_ceb4291 |
+| 2026-05-09T19:29:00+02:00 | Wave C / C3 method extraction contract and CLI | Codex | not_started_pending_c2_review |
