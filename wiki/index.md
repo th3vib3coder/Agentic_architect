@@ -38,7 +38,7 @@ Current active wave is recorded in `ledger/active_wave.md`.
 
 As of 2026-05-09, Wave B is closed and Carmine has authorized Wave C. The active wave pointer remains `C and D (parallel)`:
 
-- Wave C: `plan\11_wave_c_obdk_completion.md`, C1 report is accepted with minor after owner-gap disposition at `reports/obdk_contract_completion_scope.md`; C2 paper-source intake is closed after Claude re-review ACCEPT; C3 method extraction is author-ready for Claude review at `reports/wave_c_c3_author_handoff_report.md`.
+- Wave C: `plan\11_wave_c_obdk_completion.md`, C1 report is accepted with minor after owner-gap disposition at `reports/obdk_contract_completion_scope.md`; C2 paper-source intake is closed after Claude re-review ACCEPT; C3 method extraction has Claude `ACCEPT_WITH_MINOR` and is pending operator closure.
 - Wave D: `plan\12_wave_d_vre_phase10_completion.md`, blocked by HB-1 and explicit operator GO.
 
 ## Review Status
@@ -61,7 +61,7 @@ Wave C C1 review request is recorded as `OPDEC-WAVE-C-C1-REVIEW-REQUEST` and `IN
 
 Wave C C1 disposition is recorded as `INTPLAN-WAVE-C-C1-CLAUDE-REVIEW-001` and `OPDEC-WAVE-G-V1-PREREQ-001`; Wave G must consume the six-contract v1 owner gap before declaration.
 
-Wave C C3 evidence is recorded in `reports/wave_c_c3_author_handoff_report.md`. OBDK private provider commit `7315da3314c3286e93b98f4f3ed99ac54f158197` adds `method-extraction-record-v0.1`, `obdk extract-methods`, and verification `contracts=26 fixtures=214 unexpected=0`; full pytest passed with `250 passed in 248.35s`.
+Wave C C3 evidence is recorded in `reports/wave_c_c3_author_handoff_report.md`. OBDK private provider commit `7315da3314c3286e93b98f4f3ed99ac54f158197` adds `method-extraction-record-v0.1`, `obdk extract-methods`, and verification `contracts=26 fixtures=214 unexpected=0`; author full pytest passed with `250 passed in 248.35s`. Claude review `INTPLAN-WAVE-C-C3-CLAUDE-REVIEW-001` accepted with minor cosmetic findings and reviewer full pytest `250 passed in 212.95s`.
 
 ## No Dead Zones Rule
 

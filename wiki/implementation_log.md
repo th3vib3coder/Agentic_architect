@@ -180,3 +180,9 @@ Carmine issued `GO Wave C C3`. Codex implemented the OBDK method-extraction surf
 The provider commit adds `method-extraction-record-v0.1`, `obdk.method_extraction`, and CLI `extract-methods`. The extractor reads C2 paper-ingest bundles, emits contract-valid method candidates, flags unknown/unsupported/low-confidence procedures for operator review, and does not fabricate absent software/package names.
 
 Author verification recorded `contracts=26 fixtures=214 unexpected=0`, mutation rejection of fabricated software placeholders, ruff clean, and full pytest `250 passed in 248.35s`. Codex does not self-ACCEPT; C3 is pending Claude adversarial review and C4 has not started.
+
+## 2026-05-09 — Wave C C3 Review Recorded
+
+Claude reviewed Wave C C3 with verdict `ACCEPT_WITH_MINOR`: 0 P0, 0 P1, 0 P2, and two P3 cosmetic findings. The reviewer independently verified `contracts=26 fixtures=214 unexpected=0`, method extraction 3/3, plan-pack 10/10, ruff clean, and full pytest `250 passed in 212.95s`.
+
+Codex recorded the review in Agentic and OBDK bookkeeping. C3 is accepted-with-minor but not closed until Carmine issues operator closure; C4 remains not started.

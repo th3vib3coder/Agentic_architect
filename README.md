@@ -78,6 +78,10 @@ Wave C C3 method extraction is now author-ready for Claude review. OBDK private 
 
 `7315da3314c3286e93b98f4f3ed99ac54f158197`
 
+Claude reviewed C3 as `ACCEPT_WITH_MINOR` with no P0/P1/P2 findings and reviewer full pytest `250 passed in 212.95s`. C3 is pending operator closure; C4 has not started. OBDK review bookkeeping commit:
+
+`eb62f01`
+
 Author handoff reports:
 
 `reports/wave_c_c2_author_handoff_report.md`
