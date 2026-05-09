@@ -57,11 +57,20 @@ Active wave file:
 
 `plan\10_wave_b_agent_entrypoints.md`
 
-Wave B has been executed author-side after Carmine `GO Wave B`. Codex created OBDK `SKILL.md`, the OBDK wiki seed, the cross-system orchestration map, refreshed the handoff card, ran the entrypoint check and fresh-agent simulation, and pushed the OBDK private provider commit:
+Wave B is closed after Claude final adversarial ACCEPT and Carmine `GO Wave B closure`. Codex created OBDK `SKILL.md`, the OBDK wiki seed, the cross-system orchestration map, refreshed the handoff card, ran the entrypoint check and fresh-agent simulation, and pushed the OBDK private provider commit:
 
 `5745de3159062a4d9cf3ffcde2be9fb6436cc602`
 
-Wave B is not closed. It is waiting for Claude final adversarial review and operator closure.
+Active waves:
+
+`C and D (parallel)`
+
+Active wave files:
+
+- `plan\11_wave_c_obdk_completion.md`
+- `plan\12_wave_d_vre_phase10_completion.md`
+
+Wave C is ready for explicit operator GO. Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave C or Wave D task has been executed by the Wave B closure.
 
 OBDK remoting decision:
 
@@ -72,7 +81,7 @@ OBDK remoting decision:
 - Initial private mirror commit: `44cccf5b520444050eb114b4fecc08f7bcc2250d`
 - Current reviewed-head candidate: `7f3c8b54fa961653e6efacaa62df24315101ab19`
 
-This did not start Wave A. Wave A remains active but not started until an explicit operator `GO Wave A`.
+This remoting decision did not start Wave A by itself; Wave A later closed cleanly and Wave B later closed after final review.
 
 Claude review status: `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` ACCEPT, recorded after Carmine `GO commit ACCEPT row`.
 

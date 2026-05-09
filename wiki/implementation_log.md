@@ -100,3 +100,11 @@ OBDK provider commit pushed to private remote:
 `5745de3159062a4d9cf3ffcde2be9fb6436cc602`
 
 Wave B remains open pending Claude final adversarial review and operator closure. Codex does not self-ACCEPT.
+
+## 2026-05-09 — Wave B Closed
+
+Claude issued `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT` for Wave B agent entrypoints. Carmine issued `GO Wave B closure`.
+
+Codex recorded the ACCEPT row, operator closure decision, Wave B closure changelog row, multi-agent pairing row, active subtasks, README/wiki updates, and moved `ledger/active_wave.md` to `active_wave: C and D (parallel)`.
+
+No Wave C or Wave D task was executed during the closure. Wave C awaits explicit operator GO; Wave D remains HB-1 gated and requires explicit operator GO.

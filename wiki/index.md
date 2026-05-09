@@ -36,7 +36,10 @@ This wiki is the durable map of the integrated system implementation. It exists 
 
 Current active wave is recorded in `ledger/active_wave.md`.
 
-As of 2026-05-08, Wave A is closed and Wave B has been executed author-side. The active wave remains `B` until Claude final adversarial review and operator closure. The active wave file is `plan\10_wave_b_agent_entrypoints.md`.
+As of 2026-05-09, Wave B is closed. The active wave pointer is now `C and D (parallel)`:
+
+- Wave C: `plan\11_wave_c_obdk_completion.md`, ready for explicit operator GO.
+- Wave D: `plan\12_wave_d_vre_phase10_completion.md`, blocked by HB-1 and explicit operator GO.
 
 ## Review Status
 
@@ -46,7 +49,7 @@ Wave B author-side evidence is recorded in:
 - `reports/wave_b_fresh_agent_simulation.md`
 - `reports/wave_b_author_handoff_report.md`
 
-OBDK Path A private remoting is closed. The latest OBDK provider commit for Wave B entrypoints is `5745de3159062a4d9cf3ffcde2be9fb6436cc602`.
+OBDK Path A private remoting is closed. The latest OBDK provider commit for Wave B entrypoints is `5745de3159062a4d9cf3ffcde2be9fb6436cc602`. Wave B final review is recorded as `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001`.
 
 ## No Dead Zones Rule
 

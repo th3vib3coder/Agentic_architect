@@ -18,3 +18,6 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-08T01:34:22.3399863+02:00 | Wave A / closure after Claude ACCEPT | Codex | closed_after_claude_accept_and_operator_go_wave_a_closure |
 | 2026-05-08T01:34:22.3399863+02:00 | Wave B / agent entrypoints | Codex | active_not_started |
 | 2026-05-08T02:30:59.7920356+02:00 | Wave B / B1-B7 author-side entrypoints | Codex | author_ready_for_claude_final_review |
+| 2026-05-09T18:14:19.6626796+02:00 | Wave B / closure after Claude ACCEPT | Codex | closed_after_claude_accept_and_operator_go_wave_b_closure |
+| 2026-05-09T18:14:19.6626796+02:00 | Wave C / OBDK completion | Codex | active_not_started_awaiting_operator_go |
+| 2026-05-09T18:14:19.6626796+02:00 | Wave D / VRE Phase 10 completion | Codex | active_not_started_blocked_by_hb1_and_operator_go |

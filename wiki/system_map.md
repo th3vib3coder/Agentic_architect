@@ -51,3 +51,7 @@ Agentic Architect is public. OBDK is private. OBDK changes must be committed and
 ## Wave B Entrypoints
 
 Wave B created OBDK `SKILL.md`, OBDK top-level `wiki/`, and `plan/system_orchestration_map.md`. Fresh agents should now recover OBDK by reading OBDK `SKILL.md` before attempting CLI usage.
+
+## Wave C/D Pointer
+
+Wave B is closed. The current active pointer is `C and D (parallel)`: Wave C is the OBDK completion wave, and Wave D is the VRE Phase 10 completion wave. Wave D remains HB-1 gated; neither Wave C nor Wave D has been executed by the Wave B closure.
