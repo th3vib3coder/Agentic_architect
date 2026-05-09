@@ -70,7 +70,9 @@ Active wave files:
 - `plan\11_wave_c_obdk_completion.md`
 - `plan\12_wave_d_vre_phase10_completion.md`
 
-Wave C is ready for explicit operator GO. Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave C or Wave D task has been executed by the Wave B closure.
+Wave C started after Carmine `partiamo con wave C`. The first active task is C1 pending-contract scope reconciliation, expected to produce `reports/obdk_contract_completion_scope.md`.
+
+Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave D task is authorized by the Wave C GO.
 
 Architecture references:
 

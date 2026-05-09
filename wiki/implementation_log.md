@@ -116,3 +116,9 @@ Carmine clarified that the Karpathy LLM Wiki discussion is about hardening WIKI_
 The binding rule is now explicit: wiki pages are views, not stores. Typed records, ledger rows, source bundles, and operator decisions win over wiki prose when conflicts appear.
 
 This reference may inform Wave D / Phase 10 and later retrieval work. It does not authorize a new wiki layer, a tooling build, or adoption of any external project from the Karpathy comment thread.
+
+## 2026-05-09 — Wave C Started
+
+Carmine said `partiamo con wave C`. Codex recorded `OPDEC-WAVE-C-GO-001`, updated the active-wave state, and started Wave C with task C1 pending-contract scope reconciliation.
+
+Wave D remains HB-1 gated and is not authorized by this GO.

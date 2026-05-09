@@ -54,4 +54,4 @@ Wave B created OBDK `SKILL.md`, OBDK top-level `wiki/`, and `plan/system_orchest
 
 ## Wave C/D Pointer
 
-Wave B is closed. The current active pointer is `C and D (parallel)`: Wave C is the OBDK completion wave, and Wave D is the VRE Phase 10 completion wave. Wave D remains HB-1 gated; neither Wave C nor Wave D has been executed by the Wave B closure.
+Wave B is closed. The current active pointer is `C and D (parallel)`: Wave C is the OBDK completion wave, and Wave D is the VRE Phase 10 completion wave. Wave C is authorized and starts at C1 pending-contract scope reconciliation. Wave D remains HB-1 gated and is not authorized for execution.

@@ -28,7 +28,7 @@ The GitHub-tracked mirror for fresh agents is:
 
 ## Current Implementation State
 
-OPDEC-PLAN-001 selected the Claude integrated plan as canonical and `Agentic_architect` as the implementation workspace. Wave 0, Wave A, and Wave B are closed. Wave C and Wave D are now open as parallel pointers; Wave C awaits explicit operator GO, and Wave D remains HB-1 gated plus operator-GO gated.
+OPDEC-PLAN-001 selected the Claude integrated plan as canonical and `Agentic_architect` as the implementation workspace. Wave 0, Wave A, and Wave B are closed. Wave C has operator GO and is in progress; Wave D remains HB-1 gated plus operator-GO gated.
 
 The active-state ledger is:
 

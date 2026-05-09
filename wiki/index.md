@@ -36,9 +36,9 @@ This wiki is the durable map of the integrated system implementation. It exists 
 
 Current active wave is recorded in `ledger/active_wave.md`.
 
-As of 2026-05-09, Wave B is closed. The active wave pointer is now `C and D (parallel)`:
+As of 2026-05-09, Wave B is closed and Carmine has authorized Wave C. The active wave pointer remains `C and D (parallel)`:
 
-- Wave C: `plan\11_wave_c_obdk_completion.md`, ready for explicit operator GO.
+- Wave C: `plan\11_wave_c_obdk_completion.md`, in progress at C1 pending-contract scope reconciliation.
 - Wave D: `plan\12_wave_d_vre_phase10_completion.md`, blocked by HB-1 and explicit operator GO.
 
 ## Review Status
