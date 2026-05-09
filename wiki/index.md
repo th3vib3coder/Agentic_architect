@@ -38,7 +38,7 @@ Current active wave is recorded in `ledger/active_wave.md`.
 
 As of 2026-05-09, Wave B is closed and Carmine has authorized Wave C. The active wave pointer remains `C and D (parallel)`:
 
-- Wave C: `plan\11_wave_c_obdk_completion.md`, in progress at C1 pending-contract scope reconciliation.
+- Wave C: `plan\11_wave_c_obdk_completion.md`, C1 report ready at `reports/obdk_contract_completion_scope.md`; C2 is next and not started.
 - Wave D: `plan\12_wave_d_vre_phase10_completion.md`, blocked by HB-1 and explicit operator GO.
 
 ## Review Status
@@ -52,6 +52,8 @@ Wave B author-side evidence is recorded in:
 OBDK Path A private remoting is closed. The latest OBDK provider commit for Wave B entrypoints is `5745de3159062a4d9cf3ffcde2be9fb6436cc602`. Wave B final review is recorded as `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001`.
 
 ARCH-REF-002 is reference-only. It records Karpathy LLM Wiki / agentmemory-style ideas for WIKI_VRE hardening with the binding rule that wiki pages are views, not stores.
+
+Wave C C1 evidence is recorded in `reports/obdk_contract_completion_scope.md`.
 
 ## No Dead Zones Rule
 

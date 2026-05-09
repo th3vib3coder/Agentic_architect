@@ -23,3 +23,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-09T18:14:19.6626796+02:00 | Wave D / VRE Phase 10 completion | Codex | active_not_started_blocked_by_hb1_and_operator_go |
 | 2026-05-09T18:14:19.6626796+02:00 | ARCH-REF-002 / Karpathy-agentmemory wiki hardening reference | Codex | reference_only_recorded_no_scope_adoption |
 | 2026-05-09T18:39:42.4944608+02:00 | Wave C / C1 pending-contract scope reconciliation | Codex | in_progress_after_operator_go_wave_c |
+| 2026-05-09T18:39:42.4944608+02:00 | Wave C / C1 pending-contract scope reconciliation | Codex | closed_report_ready_for_review |
+| 2026-05-09T18:39:42.4944608+02:00 | Wave C / C2 paper source record and ingest-paper CLI | Codex | next_not_started |

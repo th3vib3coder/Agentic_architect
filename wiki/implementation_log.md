@@ -122,3 +122,9 @@ This reference may inform Wave D / Phase 10 and later retrieval work. It does no
 Carmine said `partiamo con wave C`. Codex recorded `OPDEC-WAVE-C-GO-001`, updated the active-wave state, and started Wave C with task C1 pending-contract scope reconciliation.
 
 Wave D remains HB-1 gated and is not authorized by this GO.
+
+## 2026-05-09 — Wave C C1 Contract Scope Reconciliation
+
+Codex completed C1 and wrote `reports/obdk_contract_completion_scope.md`. The report classifies the 15 pending Cluster C/E/F contracts into four trigger buckets: autonomous paper-to-analysis v1, LLM generation, predictive modeling, and safely deferred with concrete trigger.
+
+No operator decision request was emitted because the report classifies existing charter/roadmap scope rather than changing it. C2 is the next task.
