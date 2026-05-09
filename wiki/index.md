@@ -38,7 +38,7 @@ Current active wave is recorded in `ledger/active_wave.md`.
 
 As of 2026-05-09, Wave B is closed and Carmine has authorized Wave C. The active wave pointer remains `C and D (parallel)`:
 
-- Wave C: `plan\11_wave_c_obdk_completion.md`, C1 report ready at `reports/obdk_contract_completion_scope.md`; C2 paper-source intake is closed after Claude re-review ACCEPT; C3 method extraction is ready for separate operator GO.
+- Wave C: `plan\11_wave_c_obdk_completion.md`, C1 report is awaiting formal review at `reports/obdk_contract_completion_scope.md`; C2 paper-source intake is closed after Claude re-review ACCEPT; C3 method extraction is blocked until C1 review or explicit operator override.
 - Wave D: `plan\12_wave_d_vre_phase10_completion.md`, blocked by HB-1 and explicit operator GO.
 
 ## Review Status
@@ -56,6 +56,8 @@ ARCH-REF-002 is reference-only. It records Karpathy LLM Wiki / agentmemory-style
 Wave C C1 evidence is recorded in `reports/obdk_contract_completion_scope.md`.
 
 Wave C C2 evidence is recorded in `reports/wave_c_c2_author_handoff_report.md`. Initial C2 provider commit was `ceb429153780d6ff53bf17db41efc1eb5f95f32c`; the Claude F1 PDF fallback fix is OBDK private commit `01e3d6c4a76519f8b294894fb0163fae79372d51`. C2 closure is recorded as `INTPLAN-WAVE-C-C2-CLAUDE-RE-REVIEW-001` plus `OPDEC-WAVE-C-C2-CLOSURE-001`.
+
+Wave C C1 review request is recorded as `OPDEC-WAVE-C-C1-REVIEW-REQUEST` and `INTPLAN-WAVE-C-C1-CODEX-REVIEW-REQUEST-001`.
 
 ## No Dead Zones Rule
 

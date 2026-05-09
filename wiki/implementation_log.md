@@ -160,3 +160,9 @@ Claude re-reviewed the C2 F1 fix and issued `INTPLAN-WAVE-C-C2-CLAUDE-RE-REVIEW-
 Carmine then corrected the process: review ACCEPT rows, wiki, changelog, README, and remotes must be updated immediately. Codex recorded `OPDEC-WAVE-C-C2-CLOSURE-001`, closed C2, and left C3 as `active_not_started_awaiting_operator_go`.
 
 No C3 code, VRE Phase 10 surface, Wave D task, or Vibe Science core file was started by this closure.
+
+## 2026-05-09 — Wave C C1 Review Requested
+
+Carmine issued `OPDEC-WAVE-C-C1-REVIEW-REQUEST` after the C2 closure audit noted that the C1 scope-reconciliation report had not yet received a formal adversarial review row.
+
+Codex recorded the request, updated `reports/obdk_contract_completion_scope.md`, and marked C3 as blocked until Claude reviews C1 or Carmine explicitly overrides the gate.

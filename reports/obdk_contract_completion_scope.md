@@ -79,3 +79,9 @@ Path note: `vibe-science/blueprints/private/onco-bio-discovery-kernel/analisi_cl
 ## Next Wave C Task
 
 Proceed to C2: `paper-source-record-v0.1` and `ingest-paper` CLI, unless the operator redirects the C1 classification.
+
+## Post-C2 Review Request
+
+After C2 closure, Claude's post-closure audit flagged that this C1 report was marked `closed_report_ready_for_review` without a formal adversarial review row.
+
+Carmine issued `OPDEC-WAVE-C-C1-REVIEW-REQUEST` on 2026-05-09. C3 method extraction is blocked until Claude reviews this C1 classification or Carmine explicitly overrides the review gate.
