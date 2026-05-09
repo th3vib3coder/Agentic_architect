@@ -40,3 +40,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-09T22:35:37.4894028+02:00 | Wave C / C4 generated-script scaffold | Codex | not_started_pending_c3_review |
 | 2026-05-09T22:54:13.1911638+02:00 | Wave C / C3 method extraction contract and CLI | Codex | accept_with_minor_recorded_pending_operator_c3_closure |
 | 2026-05-09T22:54:13.1911638+02:00 | Wave C / C4 generated-script scaffold | Codex | not_started_pending_c3_operator_closure |
+| 2026-05-09T22:59:33.3116102+02:00 | Wave C / C3 method extraction contract and CLI | Codex | closed_after_claude_accept_with_minor_and_operator_go_c3_closure |
+| 2026-05-09T22:59:33.3116102+02:00 | Wave C / C4 generated-script scaffold | Codex | active_not_started_awaiting_operator_go |
