@@ -72,6 +72,11 @@ Active wave files:
 
 Wave C is ready for explicit operator GO. Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave C or Wave D task has been executed by the Wave B closure.
 
+Architecture references:
+
+- `ARCH-REF-001`: OpenClaw-style local automation patterns, reference-only.
+- `ARCH-REF-002`: Karpathy LLM Wiki pattern hardening for WIKI_VRE, informed by agentmemory-style retrieval/lifecycle ideas, reference-only. Binding rule: wiki pages are views, not stores; stores win conflicts.
+
 OBDK remoting decision:
 
 - Decision: `OPDEC-OBDK-REMOTING-001`

@@ -21,7 +21,7 @@ Every implementation step and every minimal variation must update the project wi
 
 ## External Architecture References
 
-Reference architectures are listed in `wiki/architecture_references.md`. They are pattern sources only. They do not alter subsystem ownership or active wave scope.
+Reference architectures are listed in `wiki/architecture_references.md`. They are pattern sources only. They do not alter subsystem ownership or active wave scope. ARCH-REF-002 applies the Karpathy LLM Wiki pattern to WIKI_VRE as a future hardening reference and binds wiki pages as views, not stores.
 
 ## Navigation Rule
 

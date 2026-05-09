@@ -29,7 +29,7 @@ This wiki is the durable map of the integrated system implementation. It exists 
 |---|---|
 | `project_goal.md` | Human-readable goal and completion criteria |
 | `system_map.md` | Where the three subsystems live and how agents should navigate |
-| `architecture_references.md` | External architecture references and explicit non-adoption boundaries |
+| `architecture_references.md` | External architecture references and explicit non-adoption boundaries, including ARCH-REF-002 WIKI_VRE store/view hardening |
 | `implementation_log.md` | Narrative companion to ledger rows |
 
 ## Active Wave
@@ -50,6 +50,8 @@ Wave B author-side evidence is recorded in:
 - `reports/wave_b_author_handoff_report.md`
 
 OBDK Path A private remoting is closed. The latest OBDK provider commit for Wave B entrypoints is `5745de3159062a4d9cf3ffcde2be9fb6436cc602`. Wave B final review is recorded as `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001`.
+
+ARCH-REF-002 is reference-only. It records Karpathy LLM Wiki / agentmemory-style ideas for WIKI_VRE hardening with the binding rule that wiki pages are views, not stores.
 
 ## No Dead Zones Rule
 

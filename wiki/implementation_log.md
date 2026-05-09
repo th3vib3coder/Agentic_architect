@@ -108,3 +108,11 @@ Claude issued `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT` for
 Codex recorded the ACCEPT row, operator closure decision, Wave B closure changelog row, multi-agent pairing row, active subtasks, README/wiki updates, and moved `ledger/active_wave.md` to `active_wave: C and D (parallel)`.
 
 No Wave C or Wave D task was executed during the closure. Wave C awaits explicit operator GO; Wave D remains HB-1 gated and requires explicit operator GO.
+
+## 2026-05-09 — ARCH-REF-002 Registered
+
+Carmine clarified that the Karpathy LLM Wiki discussion is about hardening WIKI_VRE over time, not replacing VRE and not adopting agentmemory wholesale. Codex registered `ARCH-REF-002` as reference-only.
+
+The binding rule is now explicit: wiki pages are views, not stores. Typed records, ledger rows, source bundles, and operator decisions win over wiki prose when conflicts appear.
+
+This reference may inform Wave D / Phase 10 and later retrieval work. It does not authorize a new wiki layer, a tooling build, or adoption of any external project from the Karpathy comment thread.
