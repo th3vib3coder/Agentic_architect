@@ -172,3 +172,11 @@ Codex recorded the request, updated `reports/obdk_contract_completion_scope.md`,
 Claude reviewed the C1 scope-reconciliation report with `ACCEPT_WITH_MINOR`. The accepted P2 finding was an implementation-owner gap: six contracts classified as must-have for autonomous paper-to-analysis v1 are not assigned to Wave C C1-C9.
 
 Carmine selected disposition `(a) + (b)`. Codex appended an owner-gap section to `reports/obdk_contract_completion_scope.md` and opened `OPDEC-WAVE-G-V1-PREREQ-001`. C3 is no longer blocked by C1 review, but Wave G must consume the six-contract owner gap before any v1 declaration.
+
+## 2026-05-09 — Wave C C3 Author Handoff
+
+Carmine issued `GO Wave C C3`. Codex implemented the OBDK method-extraction surface in the private provider repo and pushed commit `7315da3314c3286e93b98f4f3ed99ac54f158197`.
+
+The provider commit adds `method-extraction-record-v0.1`, `obdk.method_extraction`, and CLI `extract-methods`. The extractor reads C2 paper-ingest bundles, emits contract-valid method candidates, flags unknown/unsupported/low-confidence procedures for operator review, and does not fabricate absent software/package names.
+
+Author verification recorded `contracts=26 fixtures=214 unexpected=0`, mutation rejection of fabricated software placeholders, ruff clean, and full pytest `250 passed in 248.35s`. Codex does not self-ACCEPT; C3 is pending Claude adversarial review and C4 has not started.

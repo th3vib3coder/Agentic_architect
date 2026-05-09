@@ -74,9 +74,15 @@ Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope re
 
 `01e3d6c4a76519f8b294894fb0163fae79372d51`
 
-Author handoff report:
+Wave C C3 method extraction is now author-ready for Claude review. OBDK private provider commit:
+
+`7315da3314c3286e93b98f4f3ed99ac54f158197`
+
+Author handoff reports:
 
 `reports/wave_c_c2_author_handoff_report.md`
+
+`reports/wave_c_c3_author_handoff_report.md`
 
 Wave D remains gated by HB-1 and requires explicit operator GO before execution. No Wave D task is authorized by the Wave C GO.
 
