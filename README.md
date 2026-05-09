@@ -70,7 +70,7 @@ Active wave files:
 - `plan\11_wave_c_obdk_completion.md`
 - `plan\12_wave_d_vre_phase10_completion.md`
 
-Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`; Carmine later requested formal C1 review before C3 via `OPDEC-WAVE-C-C1-REVIEW-REQUEST`. C2 paper source record and `ingest-paper` CLI is closed after Claude re-review ACCEPT and operator bookkeeping correction; OBDK private provider commit:
+Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`; Carmine requested formal C1 review before C3 via `OPDEC-WAVE-C-C1-REVIEW-REQUEST`, then selected `(a) + (b)` for the C1 owner-gap finding. C2 paper source record and `ingest-paper` CLI is closed after Claude re-review ACCEPT and operator bookkeeping correction; OBDK private provider commit:
 
 `01e3d6c4a76519f8b294894fb0163fae79372d51`
 
@@ -144,4 +144,4 @@ Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence,
 
 Carmine then issued `GO Wave B`. Codex completed the Wave B author-side entrypoint work and requested Claude final adversarial review. Claude issued `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001`; Carmine issued `GO Wave B closure`; Codex closed Wave B and opened Wave C and Wave D parallel.
 
-Carmine then said `partiamo con wave C`. Codex completed C1 and authored C2. Claude reviewed C2 with `ACCEPT_WITH_MINOR` and raised F1 P2 on untested PDF-bytes fallback. Codex addressed F1 with a persistent PDF fallback test and OBDK private commit `01e3d6c4a76519f8b294894fb0163fae79372d51`. Claude re-reviewed and ACCEPTED C2 after full pytest `245 passed in 198.35s`; Carmine corrected the bookkeeping flow and Codex closed C2. Carmine then requested C1 review before C3. Active wave remains `C and D (parallel)` with Wave C blocked on C1 review and Wave D HB-1 gated.
+Carmine then said `partiamo con wave C`. Codex completed C1 and authored C2. Claude reviewed C2 with `ACCEPT_WITH_MINOR` and raised F1 P2 on untested PDF-bytes fallback. Codex addressed F1 with a persistent PDF fallback test and OBDK private commit `01e3d6c4a76519f8b294894fb0163fae79372d51`. Claude re-reviewed and ACCEPTED C2 after full pytest `245 passed in 198.35s`; Carmine corrected the bookkeeping flow and Codex closed C2. Carmine then requested C1 review before C3 and selected `(a) + (b)` for the owner-gap disposition. Active wave remains `C and D (parallel)` with Wave C ready for C3 operator GO and Wave D HB-1 gated.

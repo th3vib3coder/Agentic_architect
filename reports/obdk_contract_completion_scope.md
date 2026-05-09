@@ -85,3 +85,23 @@ Proceed to C2: `paper-source-record-v0.1` and `ingest-paper` CLI, unless the ope
 After C2 closure, Claude's post-closure audit flagged that this C1 report was marked `closed_report_ready_for_review` without a formal adversarial review row.
 
 Carmine issued `OPDEC-WAVE-C-C1-REVIEW-REQUEST` on 2026-05-09. C3 method extraction is blocked until Claude reviews this C1 classification or Carmine explicitly overrides the review gate.
+
+## Implementation Owner Gap For Must-Have V1 Contracts
+
+Claude reviewed this C1 report and issued `INTPLAN-WAVE-C-C1-CLAUDE-REVIEW-001` with `ACCEPT_WITH_MINOR`. The review accepted the classification but found one P2 gap: the six contracts classified as `must-have for autonomous paper-to-analysis v1` do not yet have an implementation owner in the Wave C task list.
+
+The six owner-gap contracts are:
+
+1. `negative-result-record`
+2. `limitations-record`
+3. `dataset-gap-record`
+4. `cycle-health-metrics-record`
+5. `compute-cost-record`
+6. `reproducibility-envelope-record`
+
+This is not a C1 classification failure. It is a pre-existing roadmap ownership gap surfaced by C1. C3 may proceed after this amendment, but Wave G v1 declaration must not claim autonomous paper-to-analysis v1 completion until these six contracts are either implemented, explicitly assigned to a prerequisite wave, or re-scoped by operator decision.
+
+Operator disposition `(a) + (b)` was selected on 2026-05-09:
+
+- (a) append this owner-gap section to C1;
+- (b) open `OPDEC-WAVE-G-V1-PREREQ-001` to ensure Wave G consumes the gap before v1 declaration.

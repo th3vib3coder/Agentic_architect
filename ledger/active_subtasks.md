@@ -33,3 +33,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-09T21:44:00+02:00 | Wave C / C3 method extraction contract and CLI | Codex | active_not_started_awaiting_operator_go |
 | 2026-05-09T21:44:12.5347765+02:00 | Wave C / C1 pending-contract scope reconciliation review | Codex | review_requested_from_claude_before_c3 |
 | 2026-05-09T21:44:12.5347765+02:00 | Wave C / C3 method extraction contract and CLI | Codex | still_not_started_blocked_by_c1_review |
+| 2026-05-09T22:08:39.0246345+02:00 | Wave C / C1 implementation owner gap disposition | Codex | closed_after_operator_disposition_a_plus_b |
+| 2026-05-09T22:08:39.0246345+02:00 | Wave C / C3 method extraction contract and CLI | Codex | active_not_started_awaiting_operator_go |
