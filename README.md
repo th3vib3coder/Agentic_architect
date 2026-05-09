@@ -70,9 +70,9 @@ Active wave files:
 - `plan\11_wave_c_obdk_completion.md`
 - `plan\12_wave_d_vre_phase10_completion.md`
 
-Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`. C2 paper source record and `ingest-paper` CLI is author-ready for review; OBDK private provider commit:
+Wave C started after Carmine `partiamo con wave C`. C1 pending-contract scope reconciliation produced `reports/obdk_contract_completion_scope.md`. C2 paper source record and `ingest-paper` CLI is author-ready for re-review after the Claude F1 PDF fallback fix; OBDK private provider commit:
 
-`ceb429153780d6ff53bf17db41efc1eb5f95f32c`
+`01e3d6c4a76519f8b294894fb0163fae79372d51`
 
 Author handoff report:
 
@@ -129,9 +129,10 @@ OBDK private repository:
 
 Architecture references are recorded in `wiki/architecture_references.md`.
 
-Current reference:
+Current references:
 
 - `ARCH-REF-001`: OpenClaw-style local automation patterns are reference-only for a future local cross-agent bridge. No OpenClaw feature is adopted into core scope without an operator decision.
+- `ARCH-REF-002`: Karpathy LLM Wiki pattern hardening for WIKI_VRE, informed by agentmemory-style retrieval/lifecycle ideas, is reference-only. Wiki pages are views, not stores.
 
 ## Review Status
 
@@ -141,4 +142,6 @@ Claude Code also issued `INTPLAN-OBDK-REMOTING-CLAUDE-REVIEW-001` with verdict `
 
 Carmine then issued `GO Wave A`. Codex completed A1/A2 and wrote A3/A4 evidence, stopped for operator decisions, resumed after Carmine selected `1: close, 2: authorize`, and handed Wave A to Claude. Claude issued `INTPLAN-WAVE-A-CLAUDE-FINAL-REVIEW-001` with verdict `ACCEPT`; Carmine issued `GO Wave A closure`; Codex recorded the closure and opened Wave B as active_not_started.
 
-Carmine then issued `GO Wave B`. Codex completed the Wave B author-side entrypoint work and requested Claude final adversarial review. Active wave remains B with `blocked_by: CLAUDE_WAVE_B_FINAL_REVIEW`.
+Carmine then issued `GO Wave B`. Codex completed the Wave B author-side entrypoint work and requested Claude final adversarial review. Claude issued `INTPLAN-WAVE-B-CLAUDE-FINAL-REVIEW-001`; Carmine issued `GO Wave B closure`; Codex closed Wave B and opened Wave C and Wave D parallel.
+
+Carmine then said `partiamo con wave C`. Codex completed C1 and authored C2. Claude reviewed C2 with `ACCEPT_WITH_MINOR` and raised F1 P2 on untested PDF-bytes fallback. Codex addressed F1 with a persistent PDF fallback test and OBDK private commit `01e3d6c4a76519f8b294894fb0163fae79372d51`. Active wave remains `C and D (parallel)` with Wave C C2 F1 pending Claude/Carmine re-review and Wave D HB-1 gated.

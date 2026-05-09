@@ -138,3 +138,17 @@ OBDK now has `paper-source-record-v0.1`, `obdk.paper_ingest`, and CLI `ingest-pa
 Fresh author evidence is in `reports/wave_c_c2_author_handoff_report.md`: TDD RED, GREEN, mutation failure, targeted gates, `contracts=25 fixtures=208 unexpected=0`, ruff clean, and full pytest `244 passed`.
 
 Codex does not self-ACCEPT. C3 has not started.
+
+## 2026-05-09 — Wave C C2 F1 PDF Fallback Fix
+
+Claude reviewed C2 with `ACCEPT_WITH_MINOR` and raised F1 P2: the binary PDF fallback path had not been exercised by a real PDF-bytes fixture.
+
+Codex addressed path (a) only: no `pypdf` dependency was added and the CLI flag was not renamed. The new test creates synthetic PDF bytes, verifies `binary_utf8_fallback`, checks the filename-derived fallback title, and requires an explicit fallback operator note.
+
+OBDK private provider commit:
+
+`01e3d6c4a76519f8b294894fb0163fae79372d51`
+
+Fresh evidence is updated in `reports/wave_c_c2_author_handoff_report.md`: F1 RED reproduced the `%PDF-1.4` title risk, F1 GREEN passes 4 tests, mutation fails with `MUTATION_EXPECTED_FAIL`, contracts remain `25 fixtures=208 unexpected=0`, and full pytest is now `245 passed`.
+
+Codex does not self-ACCEPT. C3 has not started and remains pending C2 F1 re-review.

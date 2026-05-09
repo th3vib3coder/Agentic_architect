@@ -27,3 +27,5 @@ Every implementation step and every minimal variation must update the project wi
 | 2026-05-09T18:39:42.4944608+02:00 | Wave C / C2 paper source record and ingest-paper CLI | Codex | next_not_started |
 | 2026-05-09T19:29:00+02:00 | Wave C / C2 paper source record and ingest-paper CLI | Codex | author_ready_for_claude_review_obdk_commit_ceb4291 |
 | 2026-05-09T19:29:00+02:00 | Wave C / C3 method extraction contract and CLI | Codex | not_started_pending_c2_review |
+| 2026-05-09T21:06:31.2046912+02:00 | Wave C / C2 F1 PDF fallback review fix | Codex | author_ready_for_claude_rereview_obdk_commit_01e3d6c |
+| 2026-05-09T21:06:31.2046912+02:00 | Wave C / C3 method extraction contract and CLI | Codex | still_not_started_pending_c2_f1_rereview |
