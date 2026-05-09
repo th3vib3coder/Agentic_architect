@@ -152,3 +152,11 @@ OBDK private provider commit:
 Fresh evidence is updated in `reports/wave_c_c2_author_handoff_report.md`: F1 RED reproduced the `%PDF-1.4` title risk, F1 GREEN passes 4 tests, mutation fails with `MUTATION_EXPECTED_FAIL`, contracts remain `25 fixtures=208 unexpected=0`, and full pytest is now `245 passed`.
 
 Codex does not self-ACCEPT. C3 has not started and remains pending C2 F1 re-review.
+
+## 2026-05-09 — Wave C C2 Closed
+
+Claude re-reviewed the C2 F1 fix and issued `INTPLAN-WAVE-C-C2-CLAUDE-RE-REVIEW-001` with verdict `ACCEPT`. The reviewer also re-ran full pytest and observed `245 passed in 198.35s`.
+
+Carmine then corrected the process: review ACCEPT rows, wiki, changelog, README, and remotes must be updated immediately. Codex recorded `OPDEC-WAVE-C-C2-CLOSURE-001`, closed C2, and left C3 as `active_not_started_awaiting_operator_go`.
+
+No C3 code, VRE Phase 10 surface, Wave D task, or Vibe Science core file was started by this closure.

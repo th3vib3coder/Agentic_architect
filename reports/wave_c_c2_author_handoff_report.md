@@ -62,3 +62,9 @@ Claude/Carmine adversarial re-review of Wave C C2 F1, focusing on:
 2. whether `binary_utf8_fallback` plus filename-derived title and operator note is the right no-dependency behavior;
 3. whether `--pdf` should remain as-is until a later operator decision on `pypdf` or source flag naming;
 4. whether C3 should start only after re-review or can continue under Wave C execution discipline.
+
+## Post-Review Status
+
+Claude re-reviewed the F1 fix and issued `INTPLAN-WAVE-C-C2-CLAUDE-RE-REVIEW-001` with verdict `ACCEPT`. Carmine then corrected the process and required ledger/wiki/changelog/README/remotes to be updated immediately.
+
+C2 is now closed at the bookkeeping level. C3 has not started and requires separate operator GO.
